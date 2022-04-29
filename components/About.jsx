@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import styles from '../styles/About.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons';

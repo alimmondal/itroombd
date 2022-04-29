@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/Menu.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 import sideBarLogo from '../public/img/sideBarLogo.png';
 
 export default function Menu({ menuOpen, setMenuOpen }) {

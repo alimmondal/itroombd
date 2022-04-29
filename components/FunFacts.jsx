@@ -17,7 +17,6 @@ const FunFacts = () => {
       offset: 100,
       duration: 1000,
       easing: 'ease',
-      // once: false,
     });
   });
   return (
