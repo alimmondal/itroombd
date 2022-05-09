@@ -80,7 +80,7 @@
 .imgD {
   border-radius: 50%;
   background-color: #2196f3;
-  border: 15px solid #fff;
+  border: 10px solid #fff;
   overflow: hidden;
   
 }
@@ -178,7 +178,7 @@
 @media screen and (max-width: 480px) {
   .intro {
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 25px;
   }
 
   .iRight{

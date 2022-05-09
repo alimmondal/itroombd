@@ -36,7 +36,7 @@ function About() {
               We also build mobile app on React Native which is highly popular
               in the world. We can also turn a WordPress website into web app.
             </p>
-            <a className={styles.b} href="#contact" data-aos="fade-left">
+            <a className={styles.b} href="#contact">
               <span></span>
               <span></span>
               <span></span>

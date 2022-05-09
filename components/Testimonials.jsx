@@ -1,24 +1,26 @@
-import React from 'react';
-import Typewriter from 'typewriter-effect';
+import React, { useEffect, useRef } from 'react';
 import styles from '../styles/Testimonials.module.css';
 import Circle from '../components/Circle';
 import { users } from '../data';
 import Image from 'next/image';
+import { init } from 'ityped';
 
 function Testimonials() {
+  const textRef = useRef();
+  useEffect(() => {
+    init(textRef.current, {
+      showCursor: true,
+      backDelay: 1500,
+      backSpeed: 60,
+      strings: ['Testimonials', 'What people say', 'Our clients'],
+    });
+  }, []);
   return (
     <div className={styles.testimonials} id="testimonial">
       <Circle backgroundColor="#FF428D" left="-60vh" top="-60vh" />
       <Circle backgroundColor="yellow" right="-60vh" bottom="-60vh" />
       <h1 className={styles.title} data-aos="zoom-in-up">
-        <Typewriter
-          options={{
-            strings: ['Testimonial', 'What people say'],
-            autoStart: true,
-            loop: true,
-            delay: 75,
-          }}
-        />
+        <span ref={textRef}></span>
       </h1>
       <div className={styles.wrapper}>
         {users.map((user) => (

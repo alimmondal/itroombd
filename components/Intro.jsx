@@ -21,8 +21,8 @@ function Intro() {
         <div className={styles.imgD} data-aos="zoom-in-down">
           <Image
             src={Me}
-            width="200"
-            height="200"
+            width="250"
+            height="250"
             objectFit="contain"
             alt=""
             className={styles.iImg}

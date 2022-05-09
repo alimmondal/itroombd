@@ -26,9 +26,9 @@
 }
 
 .cContact {
-  font-size: 25px;
+  font-size: 18px;
   margin-left: 10px;
-  color: #ffd700;
+  color: #fff;
 }
 
 .fCl,
@@ -181,9 +181,9 @@
 
   .cContact {
     text-align: left;
-    font-size: 20px;
+    /* font-size: 20px; */
     margin-left: 10px;
-    color: #ffd700;
+    /* color: #ffd700; */
   }
  
   .fButton {
